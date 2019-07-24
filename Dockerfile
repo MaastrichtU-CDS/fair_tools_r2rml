@@ -16,7 +16,6 @@ RUN cd /r2rml/target && \
     cp -R dependency/ /dependency/
 
 RUN rm -R /r2rml/
-RUN rm -R ~/.m2/repository
 
 RUN mkdir /config
 
