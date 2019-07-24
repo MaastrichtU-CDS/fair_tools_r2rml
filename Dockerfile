@@ -15,6 +15,8 @@ RUN cd /r2rml/target && \
     cp r2rml.jar /r2rml.jar && \
     cp -R dependency/ /dependency/
 
+RUN rm -R /r2rml/
+
 RUN mkdir /config
 
 COPY run.py /run.py
